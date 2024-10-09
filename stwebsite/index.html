@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Website</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/countdown.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/images/logo.png" alt="Logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="secret-page.html" hidden>Secret Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section" style="background-image: url('assets/images/background.jpg');">
+        <div class="hero-content">
+            <h1>Welcome to the Countdown</h1>
+            <p>The secret will be revealed soon!</p>
+            <div id="countdown"></div>
+            <button class="music-toggle" onclick="toggleMusic()">Play/Stop Music</button>
+        </div>
+    </section>
+
+    <audio id="background-music" loop>
+        <source src="assets/audio/background-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="scripts/particles.js"></script>
+    <script src="scripts/countdown.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
