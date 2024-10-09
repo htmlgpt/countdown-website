@@ -1,6 +1,6 @@
 # Countdown Website
 
-## Version: v2.0.0
+## Version: v1.0.0
 
 ### Overview
 The Countdown Website is a sleek, interactive platform designed to create an engaging experience for users awaiting a special event or a secret reveal. This project includes a countdown timer, particle animations, background music, and a hidden puzzle challenge that unlocks a surprise. The website is built with responsive design principles to ensure accessibility across different devices.
